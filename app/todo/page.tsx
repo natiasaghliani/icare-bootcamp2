@@ -43,7 +43,7 @@ export default () => {
                 setTodos([...todos, newTodo]);
                 setNewTodo('');
             }}
-            className="bg-blue-500 text-white py-2 px-5 rounded-lg"
+            className="bg-green-500 text-white py-2 px-5 rounded-lg"
             >Add</button>
             <ul className="mt-4 flex flex-col gap-4">
                 {todos.map((newTodo, index) => (
