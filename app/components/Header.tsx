@@ -20,14 +20,18 @@ export default () => {
             </Link>
           </li>
           <li>
-            <a href="#" className="text-white text-lg hover:underline">
-              Services
-            </a>
+            <Link
+              className="text-white text-lg hover:underline"
+              href="/counter"
+            >
+              Counter
+            </Link>
           </li>
           <li>
-            <a href="#" className="text-white text-lg hover:underline">
-              Contact
-            </a>
+            <Link className="text-white text-lg hover:underline" 
+            href="/login">
+              Log In
+            </Link>
           </li>
         </ul>
       </nav>
