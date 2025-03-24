@@ -16,6 +16,7 @@ export default () => {
   const minus = () => {
     setCount(count - 1);
   };
+  
 
   return (
     <div className="p-4">
